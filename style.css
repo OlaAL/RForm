@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f9fdfd;
+
+    /* Radial gradient background - css3 */
+    background: radial-gradient(rgba(179, 255, 255, 0.5), (255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.2));
+    text-align: center;
+}
+#firstname {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+    margin: 20px;
+
+}
+#middlename {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 300;
+    font-family:cursive;
+    margin: 20px;
+
+}
+
+#lastname {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+    margin: 20px;
+
+}
+.input {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+    margin: 20px;
+
+}
+
+
+.input-group {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+    margin: 20px;
+
+}
+
+.form-group {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+    margin: 20px;
+
+}
+
+#gender{
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+    margin: 20px;
+
+}
+
+#hobbies {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+    margin: 20px;
+
+}
+
+
+#date{
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+
+}
+
+#address1 {font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+}
+
+#address2 {font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+}
+
+#date {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+
+
+}
+
+
+#city {font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+}
+#state {font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+}
+#country {
+    font-size: 20px;
+    color: #004d00;
+    font-weight: 700;
+    font-family:cursive;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgb(233, 225, 216);
+
+}
+
+#submit1 {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#submit1 {
+
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    color: whitesmoke;
+    margin-top: 10px;
+
+}
+
+#table, tr, td {
+    border: 2px solid black;
+    padding: 5px;
+
+
+}
+tr {
+    font-size: 15px;
+    font-weight:  200;
+    font-family: Georgia;
+    color:#9cdd9c;
+
+}
+
+td {
+
+    font-size:25px;
+    color:#135e81;
+    font-weight:200;
+    font-family: Georgia;
+}

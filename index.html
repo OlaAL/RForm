@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel = "stylesheet" href="style.css" >
+
+<title>Registration Form</title>
+
+
+<script>
+  function myFunction(){
+    var tbl = document.getElementById("myTable");
+    var row = tbl.insertRow();
+    var csll1 = row.insertCell();
+    var csll2 = row.insertCell();
+    var csll3 = row.insertCell();
+    var csll4 = row.insertCell();
+    var csll5 = row.insertCell();
+    var csll6 = row.insertCell();
+    var csll7 = row.insertCell();
+    var csll8 = row.insertCell();
+    var csll9 = row.insertCell();
+    var csll10 = row.insertCell();
+    var csll11 = row.insertCell();
+  
+
+    csll1.innerHTML = document.getElementById("firstname").value;
+    csll2.innerHTML = document.getElementById("middlename").value;
+    csll3.innerHTML = document.getElementById("lastname").value;
+    csll4.innerHTML =document.getElementById("gender").value;
+    csll5.innerHTML = document.getElementById("date").value;
+    csll6.innerHTML = document.getElementById("addressstreet1").value;
+    csll7.innerHTML = document.getElementById("addressstreet2").value;
+    csll8.innerHTML = document.getElementById("city").value;
+    csll9.innerHTML = document.getElementById("state").value;
+    csll10.innerHTML = document.getElementById("country").value;
+    csll11.innerHTML = document.getElementById("hobbies").value;
+    
+
+
+  }
+</script>
+	<!-- below we are including the jQuery and jQuery plugin .js files -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+
+
+</head>
+<body align="left">
+  <img src="img/3.png" width="180px" height="180px">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+
+   <form onsubmit="myFunction(); return false;" required>
+      <div class="w3-container w3-center"></div>
+      <fieldset>
+  
+    <legend><h2>Registration Form</h2> </legend>
+  
+
+       
+                    
+        <div class=" selectContainer">
+            <div class="input-group">
+              <p>
+                <label for="firstname">Firstname</label>
+                <input id="firstname" name="firstname" type="text" required></input>
+                </p>
+            
+            
+                <p>
+                    <label for="middlename">Middlename</label>
+                    <input id="middlename" name="middlename" type="text" required></input>
+                    </p>
+            
+            
+                <p>
+                <label for="lastname">Lastname</label>
+                <input id="lastname" name="lastname" type="text" required></input>
+                </p>
+
+
+
+
+                      <!-- Gender -->
+                    <label class=" control-label"> Gender</label> 
+                      <select id = "gender" name=" gender" class="form-control selectpicker" required>
+                        <option value=""></option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    </br>
+                    </div>
+                </div>
+                <p> </p>
+                      <!-- Date of Birth -->
+                      <div class="input-group">
+                        <label for="date">Date of Birth</label>
+                        <input type="date" id="date" name="date" required>
+                        <i class="fa-solid fa-circle-check"></i> 
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <p> </p>
+                      </div>
+
+
+                    <!-- Address Street 1 -->
+                    <div class="input-group">
+                        <label for="addressstreet1">Address Street 1</label>
+                        <input type="text" id="addressstreet1" name="addressstreet1" required> 
+                        <i class="fa-solid fa-circle-check"></i> 
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <p> </p>
+                      </div>
+
+
+                  <!-- Address Street 2 -->
+                  <div class="input-group">
+                      <label for="addressstreet2">Address Street 2</label>
+                      <input type="text" id="addressstreet2" name="addressstreet2" required>
+                      <i class="fa-solid fa-circle-check"></i> 
+                      <i class="fa-solid fa-circle-exclamation"></i>
+                      <p> </p>
+                    </div>
+
+                  <!-- City -->
+                  <div class="input-group">
+                      <label for="city">City</label>
+                      <input type="text" id="city" name="city" required>
+                      <i class="fa-solid fa-circle-check"></i> 
+                      <i class="fa-solid fa-circle-exclamation"></i>
+                      <p> </p>
+                    </div>
+
+                  <!-- State/ Province -->
+                  <div class="input-group">
+                      <label for="state">State/ Province</label>
+                      <input type="text" id="state" name="state" required>
+                      <i class="fa-solid fa-circle-check"></i> 
+                      <i class="fa-solid fa-circle-exclamation"></i>
+                      <p></p>
+                    </div>
+
+                  <!-- Country -->
+                  <div class="input-group">
+                      <label for="country">Country</label>
+                      <input type="text" id="country" name="country" required>
+                      <i class="fa-solid fa-circle-check"></i> 
+                      <i class="fa-solid fa-circle-exclamation"></i>
+                      <p> </p>
+                    </div>
+
+                  <!-- List of hobbies-->
+                  <div class="form-group"> 
+
+                    <label class="col-md-4 control-label"> Hobbies</label>
+                    <select id = "hobbies" name= "hobbies" class="form-control selectpicker" required> 
+                      <option value="">Select your hobbies</option>
+                      <option>Travel</option>
+                      <option>Outdoor activities</option>
+                      <option >Cooking or baking</option>
+                      <option >Writing or blogging</option>
+                      <option >Community service</option>
+                      <option >Playing an instrument</option>
+                      <option >Team or individual sports</option>
+                      <option >Exercising and healthcare</option>
+                    </select> 
+                      
+            </div>
+            <p> </p>
+      
+           </select>
+           <p>
+            <input id = "submit1 " type="submit" value="submit" />
+      
+          </p>
+        </div>
+        </div>
+        </div>
+
+    
+
+  </form>
+        
+
+          <table border = 1 id = "myTable">
+            <tr>
+              <td>First Name</td>
+              <td>Middle Name</td>
+              <td>Last Name</td>
+              <td>Gender</td>
+              <td>Date of Birth</td>
+              <td>Address Street 1</td>
+              <td>Address Street 2</td>
+              <td>City</td>
+              <td>State/ Province</td>
+              <td>Country</td>
+              <td>Hobbies</td>
+            </tr>
+
+  
+  
+          </table>
+  
+<script src = "main.js"></script>
+</body>
+</html>
+
